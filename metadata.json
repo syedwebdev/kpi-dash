@@ -1,0 +1,7 @@
+{
+  "name": "SaaS Executive & Operations KPI Dashboard",
+  "description": "Unified single-screen operational dashboard synthesizing executive financial health, engineering DevOps DORA metrics, and customer success KPIs with source system sync and RBAC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

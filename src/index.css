@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    @apply antialiased bg-[#E9EEF2] text-slate-900 selection:bg-amber-400 selection:text-slate-950;
+  }
+
+  /* Monospace tabular figures */
+  .font-tabular {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom design accents from reference image */
+.bg-canvas-outer {
+  background-color: #E9EEF2;
+}
+
+.bg-accent-yellow {
+  background-color: #FACC15;
+}
+
+.text-accent-yellow {
+  color: #EAB308;
+}
+
+.card-shadow {
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.04), 0 2px 6px -1px rgba(15, 23, 42, 0.02);
+}
+
+
